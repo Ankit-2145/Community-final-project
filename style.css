@@ -155,3 +155,183 @@ header .hero .img-right img {
   width: 290px;
   font-size: 16px;
 }
+
+.blogs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 260px;
+  position: relative;
+}
+
+.blogs .gradient {
+  position: absolute;
+  top: 395px;
+  left: 1002px;
+  width: 457.516px;
+  height: 149.808px;
+  transform: rotate(-24.901deg);
+  flex-shrink: 0;
+  border-radius: 457.516px;
+  background: rgba(83, 0, 112, 0.5);
+  filter: blur(77px);
+}
+
+.blogs .blog-left {
+  margin-left: 140px;
+}
+
+.blogs .blog-left h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.blogs .blog-left p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+  padding-top: 24px;
+}
+
+.blogs .blog-left button {
+  background: var(--btn-bg-color);
+  color: var(--primary-color);
+  display: inline-flex;
+  gap: 24px;
+  padding: 16px 24px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+.blogs .blog-left i {
+  padding-right: 10px;
+}
+
+.blogs .blog-left .people-blogs {
+  display: flex;
+  margin-top: 24px;
+}
+
+.blogs .blog-left .people-blogs img {
+  width: 183px;
+}
+
+.blogs .blog-left .people-blogs p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.blogs .blog-right img {
+  width: 600px;
+}
+
+.games {
+  margin-top: 260px;
+  position: relative;
+}
+
+.games .gradient2 {
+  position: absolute;
+  top: 277px;
+  left: -468px;
+  width: 788px;
+  height: 451px;
+  transform: rotate(90deg);
+  flex-shrink: 0;
+  border-radius: 788px;
+  background: rgba(83, 0, 112, 0.5);
+  filter: blur(229px);
+}
+
+.games .heading-games {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.games .heading-games h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.games .heading-games p {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.games .heading-games span {
+  color: var(--primary-color);
+}
+
+.games .heading-games button {
+  padding: 16px;
+  background-color: var(--btn-bg-color);
+  border-radius: 4px;
+  border: none;
+}
+
+.games .heading-games button i {
+  color: var(--primary-color);
+}
+
+.games .top-games {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 140px;
+}
+
+.games .top-games article img {
+  height: 300px;
+}
+
+.games .top-games article img:hover {
+  box-shadow: 0 20px 49px rgba(83, 0, 112, 0.5);
+}
+
+.games .top-games article p {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 24px;
+}
+
+.faq-container {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq-container h2 {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--text-color);
+  margin-bottom: 60px;
+}
+
+.faq-container article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  padding: 16px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.faq-container article h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
